@@ -1,14 +1,38 @@
 # Team We Winning — Static Site
 
-This repo contains a simple static site for Netlify.
+This is the static website for **Team We Winning** — streetwear, events, and culture.
 
-## Deploying
-- Connect this repo in Netlify (**Import from Git**).
-- **Build command:** (leave blank)
-- **Publish directory:** `.`
+## 🚀 Deployment
+- Hosted on **GitHub Pages**
+- Branch: `main`
+- Folder: `/` (root)
 
-Netlify will serve `index.html` directly.
+GitHub Pages automatically deploys whenever changes are pushed to `main`.
 
-## Editing
-- Change text, products, and events in `config.json`.
-- Push to the repo → Netlify auto-deploys.
+Live URL:  
+[https://wewinningllc-atl.github.io/teamwewinning-site/](https://wewinningllc-atl.github.io/teamwewinning-site/)
+
+Custom domain: **teamwewinning.com**
+
+## 🔧 Editing Content
+- `index.html` → Site layout and scripts
+- `config.json` → Products, events, and tagline
+- `README.md` → Project documentation
+
+### Products
+- Classic Tees → $25
+- Hats → $25
+- Limited Edition Tees → $45
+- Hoodies (Unseen Atlanta & Team We Winning) → $45
+- Limited Edition Hoodies → $60
+
+### Events
+- Managed in `config.json` under `"events"`
+- Events with past dates are automatically hidden
+- Add new events with `date`, `title`, `where`, `time`, and `href` for ticket links
+
+## 📝 Commit Flow
+1. Update `config.json` for new products/events
+2. Commit changes with clear messages
+3. GitHub Pages auto-deploys in ~1 minute
+4. Verify live site and custom domain
