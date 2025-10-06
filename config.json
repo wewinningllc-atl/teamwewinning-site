@@ -1,0 +1,12 @@
+{
+  "brand": "TEAM WE WINNING",
+  "tagline": "Culture you can wear. Energy you can feel.",
+  "products": [
+    { "title": "Midnight Owl Hoodie", "price": "$65" },
+    { "title": "Classic Tee", "price": "$32" }
+  ],
+  "events": [
+    { "title": "Who Got the Best Hands — Spades Tournament", "date": "Sat • Jul 19", "time": "7:00 PM" },
+    { "title": "Tiny Kitchen — Live Session", "date": "Sat • Aug 23", "time": "6:00 PM" }
+  ]
+}
