@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Team We Winning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white p-6">
+  <h1 class="text-3xl font-bold mb-4">TEAM WE WINNING</h1>
+  <p id="tagline" class="mb-8"></p>
+
+  <h2 class="text-xl font-semibold mb-2">Products</h2>
+  <div id="products" class="space-y-2 mb-6"></div>
+
+  <h2 class="text-xl font-semibold mb-2">Events</h2>
+  <div id="events" class="space-y-2"></div>
+
+  <script>
+    async function init() {
+      const cfg = await fetch('config.json').then(r => r.json());
+      document.getElementById('tagline').textContent = cfg.tagline;
+      const pWrap = document.getElementById('products');
+      cfg.products.forEach(p => {
+        const div = document.createElement('div');
+        div.innerHTML = p.title + " — " + p.price;
+        pWrap.appendChild(div);
+      });
+      const eWrap = document.getElementById('events');
+      cfg.events.forEach(e => {
+        const div = document.createElement('div');
+        div.innerHTML = e.date + " | " + e.title + " | " + e.time;
+        eWrap.appendChild(div);
+      });
+    }
+    init();
+  </script>
+</body>
+</html>
