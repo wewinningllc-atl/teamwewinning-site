@@ -2,11 +2,38 @@
   "brand": "TEAM WE WINNING",
   "tagline": "Culture you can wear. Energy you can feel.",
   "products": [
-    { "title": "Midnight Owl Hoodie", "price": "$65" },
-    { "title": "Classic Tee", "price": "$32" }
+    { "title": "Classic TWW Tee", "price": "$25" },
+    { "title": "Classic Gray Tee", "price": "$25" },
+    { "title": "Team We Winning Hat", "price": "$25" },
+    { "title": "Unseen Atlanta Hat", "price": "$25" },
+
+    { "title": "Beast of the Block Tee (Limited Edition)", "price": "$45" },
+    { "title": "Midnight Owl Tee (Limited Edition)", "price": "$45" },
+    { "title": "Slow Grind Tee (Limited Edition)", "price": "$45" },
+    { "title": "Gray Fox Tee (Limited Edition)", "price": "$45" },
+
+    { "title": "Unseen Atlanta Hoodie", "price": "$45" },
+    { "title": "Team We Winning Hoodie", "price": "$45" },
+
+    { "title": "Midnight Owl Hoodie (Limited Edition)", "price": "$60" },
+    { "title": "Beast of the Block Hoodie (Limited Edition)", "price": "$60" },
+    { "title": "Gray Fox Hoodie (Limited Edition)", "price": "$60" },
+    { "title": "Slow Grind Hoodie (Limited Edition)", "price": "$60" }
   ],
   "events": [
-    { "title": "Who Got the Best Hands — Spades Tournament", "date": "Sat • Jul 19", "time": "7:00 PM" },
-    { "title": "Tiny Kitchen — Live Session", "date": "Sat • Aug 23", "time": "6:00 PM" }
+    {
+      "date": "Sat • Nov 8, 2025",
+      "title": "Who Got the Best Hands — Spades Tournament",
+      "where": "Atlanta, GA",
+      "time": "7:00 PM",
+      "href": "#"
+    },
+    {
+      "date": "Fri • Nov 21, 2025",
+      "title": "Tiny Kitchen — Live Session + Tasting",
+      "where": "Atlanta, GA",
+      "time": "6:00 PM",
+      "href": "#"
+    }
   ]
 }
